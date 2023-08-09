@@ -1,8 +1,8 @@
 
 
-DROP TABLE IF EXISTS `users`;
+DROP TABLE IF EXISTS `app`.`users`;
 
-CREATE TABLE `users` (
+CREATE TABLE `app`.`users` (
   `id` bigint NOT NULL AUTO_INCREMENT,
   `password` varchar(255) DEFAULT NULL,
   `username` varchar(255) NOT NULL,

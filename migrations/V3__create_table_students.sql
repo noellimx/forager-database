@@ -1,6 +1,6 @@
-DROP TABLE IF EXISTS `students`;
+DROP TABLE IF EXISTS `app`.`students`;
 
-CREATE TABLE `students` (
+CREATE TABLE `app`.`students` (
   `id` int NOT NULL AUTO_INCREMENT,
   `email` varchar(255) DEFAULT NULL,
   `first_name` varchar(255) DEFAULT NULL,
