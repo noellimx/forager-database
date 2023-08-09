@@ -2,7 +2,7 @@
 
 container_name=dev-mysql-forager
 password=your-root-password
-port_src=3306
+port_src=3307
 db_name=app
 
 echo "force stopping container with same name [$container_name], if any."

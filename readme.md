@@ -10,13 +10,19 @@ Docker: images for flyway and mysql will be pulled.
 
 `./dev.sh` runs a new sql container.
 
-# migration scripts
+# Migration scripts
+
+`./migrations`
 
 ## NOTES on Migration
 
 Seeding operations should be executed by the application service. For example, if a new user is to be created, use package UserService::create or HTTP RESTful .../register API outside of database creation and migration process. 
 
 Data alteration, i.e changing of column names, adding new field attributes of existing tables, augmenting data of existing rows, is permissible.
+
+## NOTES on Volumes / Data
+
+This migration process is fully manually. With appropriate access, administrator should explicitly manage existing storage with support from flyway.
 
 ### useful commands
 
