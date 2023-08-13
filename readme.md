@@ -8,7 +8,7 @@ Docker: images for flyway and mysql will be pulled.
 
 # Development Database
 
-`./dev.sh` runs a new sql container.
+`./dev.sh` runs a new sql container locally.
 
 # Migration scripts
 
